@@ -122,10 +122,3 @@ Example POST body:
 ### External API
 
 - GET `/api/external/music?term=taylor%20swift` — searches the public iTunes Search API and returns selected track information.
-
-## Important notes
-
-- The admin dashboard is a classroom demonstration and is not protected by authentication. Do not deploy it publicly without adding authentication and authorization.
-- Sample tour dates and announcement text are demonstration content. Replace them with accurate information before public use.
-- The iTunes Search API depends on internet connectivity and the external service being available.
-- Contact messages are stored in the database. Use test data during classroom demonstrations.
